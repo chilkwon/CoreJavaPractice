@@ -18,8 +18,8 @@ public class GenericsPractice {
 	public void method1() {
 		// String as generic type
 		GenericModel1<String> stringGenericModel = new GenericModel1<String>();
-		stringGenericModel.method1("jack");
-		stringGenericModel.method2("jack");
+		stringGenericModel.method1("chil");
+		stringGenericModel.method2("chil");
 
 		// String as generic type - from JDK 7 - right side no need to declare generic
 		GenericModel1<String> stringGenericModel2 = new GenericModel1<>();
